@@ -18,13 +18,20 @@
       href="https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&family=Geist:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&display=swap");
+      * {
+        font-family: Geist;
+      }
+    </style>
   </head>
   <body>
     <header class="w-full">
       <div
-        class="w-full bg-black text-white text-[6px] md:text-[12px] font-[500] py-2"
+        class="m-w-full bg-black text-white text-[6px] md:text-[12px] font-[500] py-2"
       >
-        <div class="w-[458px] mx-auto">
+        <div class="text-center">
           <p class="">
             Free shipping on orders over $99 | Use code
             <span class="text-[#E85D3A] font-[700]">SHOP20</span> for 20% off
@@ -32,11 +39,11 @@
         </div>
       </div>
       <div
-        class="w-[1440px] border-[#EAE6E4] pt-[20px] px-[80px] mx-auto flex justify-between z-[-1]"
+        class="m-w-[1440px] border-[#EAE6E4] pt-2 lg:pt-[20px] px-[10px] lg:px-[80px] mx-auto flex justify-between z-[-1]"
       >
         <div class="flex">
           <div
-            class="bg-[#E85D3A] mr-[5px] w-[32px] h-[32px] text-center rounded-lg"
+            class="bg-[#E85D3A] mr-[5px] px-1 py-1 w-[32px] h-[32px] text-center rounded-lg"
           >
             <i class="fa-solid fa-crow text-white"></i>
           </div>
@@ -66,30 +73,720 @@
     </header>
 
     <section
-      class="w-[1440px] px-[80px] py-[64px] mx-auto flex justify-between align-center"
+      class="m-w-[1440px] px-[10px] lg:px-[80px] lg:py-[64px] mx-auto lg:flex lg:justify-between align-center"
     >
       <div class="my-[32px] w-[700px]">
         <p
-          class="text-[#E85D3A] w-[166px] bg-[#E85D3A14] py-2 px-5 rounded-full text-[12px] font-[700]  font-Geist"
+          class="text-[#E85D3A] w-[166px] bg-[#E85D3A14] py-2 px-5 rounded-full text-[12px] font-[700] font-Geist"
         >
           New Collection 2026
         </p>
-        <h1 class="font-[800] text-[56px] leading-[70px]">
-          Elevate Your Everyday 
-          Style
+        <h1 class="font-[800] text-[20px] lg:text-[56px] leading-[70px]">
+          Elevate Your Everyday Style
         </h1>
-        <p class="font-[400] text-[18px] leading-[160%] text-[#666360]">
+        <p
+          class="font-[400] text-[10px] lg:text-[18px] leading-[160%] text-[#666360]"
+        >
           Discover the perfect blend of sustainable materials, thoughtful
-          craftsmanship, and <br> contemporary silhouettes designed to adapt
-          seamlessly to your active life.
+          craftsmanship, and <br />
+          contemporary silhouettes designed to adapt seamlessly to your active
+          life.
         </p>
-        
+        <div class="my-5 lg:my-10">
+          <button
+            class="text-[14px] font-[600] bg-[#E85D3A] py-3 lg:py-4 px-4 lg:px-6 rounded-md text-white"
+          >
+            Shop New Arrivals <i class="fa-solid fa-arrow-right"></i>
+          </button>
+          <button
+            class="text-[14px] font-[600] border border-[#EAE6E4] ml-4 py-3 lg:py-4 px-4 lg:px-6 rounded-md"
+          >
+            Explore Collections
+          </button>
+        </div>
+        <div class="flex gap-12">
+          <div>
+            <h4 class="text-[24px] font-[800]">10k+</h4>
+            <p class="text-[12px] font-[400] text-[#96908D]">Happy Customers</p>
+          </div>
+          <div>
+            <h4 class="text-[24px] font-[800]">250+</h4>
+            <p class="text-[12px] font-[400] text-[#96908D]">Premium Designs</p>
+          </div>
+          <div>
+            <h4 class="text-[24px] font-[800]">100%</h4>
+            <p class="text-[12px] font-[400] text-[#96908D]">Eco Materials</p>
+          </div>
+        </div>
       </div>
       <div>
-        <div class="w-[515px] h-[560px] rounded-full">
+        <div class="lg:w-[515px] lg:h-[560px] rounded-full">
           <img class="rounded-xl" src="images/section01.png" alt="" />
         </div>
       </div>
     </section>
+
+    <section class="lg:w-[1440px] px-[20px] lg:px-[80px] py-[64px] mx-auto">
+      <p class="uppercase text-[14px] font-[700] text-[#E85D3A] text-center">
+        Curated collections
+      </p>
+      <h2 class="text-center text-[36px] font-[700]">Shop by Category</h2>
+      <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-8 my-[50px]">
+        <!-- card 01 -->
+        <div
+          class="w-[350px] lg:w-[296px] h-[380px] bg-[url('/images/shop-card-01.png')] bg-cover rounded-xl p-6 pt-[300px]"
+        >
+          <div
+            class="flex justify-between bg-[#FFFFFFE6] p-4 rounded-xl text-[18px] font-[700]"
+          >
+            <h3>Men</h3>
+            <i class="fa-solid fa-arrow-right text-[#E85D3A]"></i>
+          </div>
+        </div>
+        <!-- card 02 -->
+        <div
+          class="w-[350px] lg:w-[296px] h-[380px] bg-[url('/images/shop-card-02.png')] bg-cover rounded-xl p-6 pt-[300px]"
+        >
+          <div
+            class="flex justify-between bg-[#FFFFFFE6] p-4 rounded-xl text-[18px] font-[700]"
+          >
+            <h3>Women</h3>
+            <i class="fa-solid fa-arrow-right text-[#E85D3A]"></i>
+          </div>
+        </div>
+        <!-- card 03 -->
+        <div
+          class="w-[350px] lg:w-[296px] h-[380px] bg-[url('/images/shop-card-03.png')] bg-cover rounded-xl p-6 pt-[300px]"
+        >
+          <div
+            class="flex justify-between bg-[#FFFFFFE6] p-4 rounded-xl text-[18px] font-[700]"
+          >
+            <h3>Accessories</h3>
+            <i class="fa-solid fa-arrow-right text-[#E85D3A]"></i>
+          </div>
+        </div>
+        <!-- card 04 -->
+        <div
+          class="w-[350px] lg:w-[296px] h-[380px] bg-[url('/images/shop-card-04.png')] bg-cover rounded-xl p-6 pt-[300px]"
+        >
+          <div
+            class="flex justify-between bg-[#FFFFFFE6] p-4 rounded-xl text-[18px] font-[700]"
+          >
+            <h3>Footwear</h3>
+            <i class="fa-solid fa-arrow-right text-[#E85D3A]"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="m-w-[640px] md:m-w-[768px] lg:m-w-[1024px] lg:w-[1440px] mx-auto px-[10px] lg:px-[80px] my-[50px]"
+    >
+      <h4
+        class="text-[#E85D3A] font-bold text-[8px] sm:text-[9px] md:text-[10px] lg:text-[12px] uppercase"
+      >
+        Our Best Sellers
+      </h4>
+      <div class="flex justify-between">
+        <h2 class="font-bold text-[26px] lg:text-[36px]">Featured Products</h2>
+        <div>
+          <button
+            class="border p-2 px-[20px] lg:px-[50px] border-[#EAE6E4] rounded-xl font-[600] text-[8px] lg:text-[14px]"
+          >
+            View All Products <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 my-[50px]"
+      >
+        <!-- card 01 -->
+        <div class="shadow-md rounded-xl">
+          <div class="relative">
+            <img class="rounded-t-xl" src="images/card01.png" alt="" />
+            <div
+              class="uppercase absolute top-[15px] left-[15px] bg-[#E85D3A] w-11 rounded-[20px] text-[10px] font-bold tracking-[20%] px-2 py-1 text-[#FFFFFF]"
+            >
+              new
+            </div>
+            <div
+              class="bg-[white] absolute top-[15px] right-[15px] p-3 py-[10px] rounded-full"
+            >
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="my-3">
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <h4 class="font-[700] text-[16px]">Classic Leather Jacket</h4>
+              <span class="text-[#E85D3A] font-bold text-[16px] mr-[10px]"
+                >$189</span
+              ><span class="line-through text-[13px] text-[#96908D]">$249</span>
+              <div class="my-2">
+                <button
+                  class="bg-[#1A1A1A] text-[#FFFFFF] w-[330px] lg:w-[260px] py-2 rounded-xl"
+                >
+                  <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 02 -->
+        <div class="shadow-md rounded-xl">
+          <div class="relative">
+            <img class="rounded-t-xl" src="images/card02.png" alt="" />
+            <div
+              class="bg-[white] absolute top-[15px] right-[15px] p-3 py-[10px] rounded-full"
+            >
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="my-3">
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#E5E7EB]"></i>
+              <h4 class="font-[700] text-[16px]">Silk Blend Dress</h4>
+              <span class="text-[#E85D3A] font-bold text-[16px] mr-[10px]"
+                >$245</span
+              >
+              <div class="my-2">
+                <button
+                  class="bg-[#1A1A1A] text-[#FFFFFF] w-[330px] lg:w-[260px] py-2 rounded-xl"
+                >
+                  <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 03 -->
+        <div class="shadow-md rounded-xl">
+          <div class="relative">
+            <img class="rounded-t-xl" src="images/card03.png" alt="" />
+            <div
+              class="uppercase absolute top-[15px] left-[15px] bg-black w-11 rounded-[20px] text-[10px] font-bold tracking-[20%] px-2 py-1 text-[#FFFFFF]"
+            >
+              hot
+            </div>
+            <div
+              class="bg-[white] absolute top-[15px] right-[15px] p-3 py-[10px] rounded-full"
+            >
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="my-3">
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <h4 class="font-[700] text-[16px]">Canvas Sneakers</h4>
+              <span class="text-[#E85D3A] font-bold text-[16px] mr-[10px]"
+                >$129</span
+              >
+              <div class="my-2">
+                <button
+                  class="bg-[#1A1A1A] text-[#FFFFFF] w-[330px] lg:w-[260px] py-2 rounded-xl"
+                >
+                  <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 04 -->
+        <div class="shadow-md rounded-xl">
+          <div class="relative">
+            <img class="rounded-t-xl" src="images/card04.png" alt="" />
+            <div
+              class="bg-[white] absolute top-[15px] right-[15px] p-3 py-[10px] rounded-full"
+            >
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="my-3">
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <h4 class="font-[700] text-[16px]">Wool Overcoat</h4>
+              <span class="text-[#E85D3A] font-bold text-[16px] mr-[10px]"
+                >$320</span
+              >
+              <div class="my-2">
+                <button
+                  class="bg-[#1A1A1A] text-[#FFFFFF] w-[330px] lg:w-[260px] py-2 rounded-xl"
+                >
+                  <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 05 -->
+        <div class="shadow-md rounded-xl">
+          <div class="relative">
+            <img class="rounded-t-xl" src="images/card05.png" alt="" />
+            <div
+              class="bg-[white] absolute top-[15px] right-[15px] p-3 py-[10px] rounded-full"
+            >
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="my-3">
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#E5E7EB]"></i>
+              <h4 class="font-[700] text-[16px]">Linen Summer Shirt</h4>
+              <span class="text-[#E85D3A] font-bold text-[16px] mr-[10px]"
+                >$89</span
+              >
+              <div class="my-2">
+                <button
+                  class="bg-[#1A1A1A] text-[#FFFFFF] w-[330px] lg:w-[260px] py-2 rounded-xl"
+                >
+                  <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 06 -->
+        <div class="shadow-md rounded-xl">
+          <div class="relative">
+            <img class="rounded-t-xl" src="images/card06.png" alt="" />
+            <div
+              class="uppercase absolute top-[15px] left-[15px] bg-[#E85D3A] w-11 rounded-[20px] text-[10px] font-bold tracking-[20%] px-2 py-1 text-[#FFFFFF]"
+            >
+              new
+            </div>
+            <div
+              class="bg-[white] absolute top-[15px] right-[15px] p-3 py-[10px] rounded-full"
+            >
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="my-3">
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <h4 class="font-[700] text-[16px]">Designer Sunglasses</h4>
+              <span class="text-[#E85D3A] font-bold text-[16px] mr-[10px]"
+                >$165</span
+              >
+              <div class="my-2">
+                <button
+                  class="bg-[#1A1A1A] text-[#FFFFFF] w-[330px] lg:w-[260px] py-2 rounded-xl"
+                >
+                  <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 07 -->
+        <div class="shadow-md rounded-xl">
+          <div class="relative">
+            <img class="rounded-t-xl" src="images/card07.png" alt="" />
+            <div
+              class="bg-[white] absolute top-[15px] right-[15px] p-3 py-[10px] rounded-full"
+            >
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="my-3">
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#E5E7EB]"></i>
+              <h4 class="font-[700] text-[16px]">Crossbody Bag</h4>
+              <span class="text-[#E85D3A] font-bold text-[16px] mr-[10px]"
+                >$210</span
+              >
+              <div class="my-2">
+                <button
+                  class="bg-[#1A1A1A] text-[#FFFFFF] w-[330px] lg:w-[260px] py-2 rounded-xl"
+                >
+                  <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 08 -->
+        <div class="shadow-md rounded-xl">
+          <div class="relative">
+            <img class="rounded-t-xl" src="images/card08.png" alt="" />
+            <div
+              class="bg-[white] absolute top-[15px] right-[15px] p-3 py-[10px] rounded-full"
+            >
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="my-3">
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <h4 class="font-[700] text-[16px]">Knit Sweater</h4>
+              <span class="text-[#E85D3A] font-bold text-[16px] mr-[10px]"
+                >$155</span
+              ><span class="line-through text-[13px] text-[#96908D]">$189</span>
+              <div class="my-2">
+                <button
+                  class="bg-[#1A1A1A] text-[#FFFFFF] w-[330px] lg:w-[260px] py-2 rounded-xl"
+                >
+                  <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-[#EFEAE6] lg:my-[64px]">
+      <div
+        class="m-w-[1440px] px-[10px] lg:px-[80px] mx-auto grid lg:grid-cols-2"
+      >
+        <div class="py-[30px] lg:py-[64px]">
+          <p class="text-[#E85D3A] text-[14px] font-[700] uppercase">
+            Limited Time Only
+          </p>
+          <h2
+            class="text-[30px] lg:text-[44px] font-[800] text-base/16 text-[#1A1A1A] py-5"
+          >
+            Mid-Season Sale — Up to 50% Off
+          </h2>
+          <p class="text-[16px] font-[400] text-[#666360]">
+            Upgrade your wardrobe with timeless essentials at unprecedented
+            prices. Explore clean designs, premium materials, and structured
+            cuts crafted to last.
+          </p>
+          <button class="bg-[#E85D3A] py-3 px-6 rounded-lg text-[#FFFFFF] my-8">
+            Shop the Sale <i class="fa-solid fa-bag-shopping"></i>
+          </button>
+        </div>
+        <div>
+          <img src="images/mid-img.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="m-w-[1440px] mx-auto py-[30px] px-[10px] lg:px-[80px]">
+      <p class="text-center text-[#E85D3A] text-3 font-[700]">
+        Most Loved Pieces
+      </p>
+      <h2 class="text-[36px] font-[700] text-center">Trending Now</h2>
+      <div class="grid grid-cols-1 lg:grid-cols-4 gap-3 lg:my-[50px]">
+        <!-- card 01 -->
+        <div class="shadow-md rounded-xl">
+          <div class="relative">
+            <img class="rounded-t-xl" src="images/trend-01.png" alt="" />
+            <div
+              class="uppercase absolute top-[15px] left-[15px] bg-[#1A1A1A] w-11 rounded-[20px] text-[10px] font-bold tracking-[20%] px-2 py-1 text-[#FFFFFF]"
+            >
+              hot
+            </div>
+            <div
+              class="bg-[white] absolute top-[15px] right-[15px] p-3 py-[10px] rounded-full"
+            >
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="my-3">
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <h4 class="font-[700] text-[16px]">Relaxed Fit Blazer</h4>
+              <span class="text-[#E85D3A] font-bold text-[16px] mr-[10px]"
+                >$275</span
+              >
+              <div class="my-2">
+                <button
+                  class="bg-[#1A1A1A] text-[#FFFFFF] w-[330px] lg:w-[260px] py-2 rounded-xl"
+                >
+                  <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 02 -->
+        <div class="shadow-md rounded-xl">
+          <div class="relative">
+            <img class="rounded-t-xl" src="images/trend-02.png" alt="" />
+
+            <div
+              class="bg-[white] absolute top-[15px] right-[15px] p-3 py-[10px] rounded-full"
+            >
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="my-3">
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#E5E7EB]"></i>
+              <h4 class="font-[700] text-[16px]">Pleated Midi Skirt</h4>
+              <span class="text-[#E85D3A] font-bold text-[16px] mr-[10px]"
+                >$145</span
+              >
+              <div class="my-2">
+                <button
+                  class="bg-[#1A1A1A] text-[#FFFFFF] w-[330px] lg:w-[260px] py-2 rounded-xl"
+                >
+                  <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 03 -->
+        <div class="shadow-md rounded-xl">
+          <div class="relative">
+            <img class="rounded-t-xl" src="images/trend-03.png" alt="" />
+            <div
+              class="uppercase absolute top-[15px] left-[15px] bg-[#E85D3A] w-11 rounded-[20px] text-[10px] font-bold tracking-[20%] px-2 py-1 text-[#FFFFFF]"
+            >
+              new
+            </div>
+            <div
+              class="bg-[white] absolute top-[15px] right-[15px] p-3 py-[10px] rounded-full"
+            >
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="my-3">
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <h4 class="font-[700] text-[16px]">Leather Chelsea Boots</h4>
+              <span class="text-[#E85D3A] font-bold text-[16px] mr-[10px]"
+                >$230</span
+              >
+              <div class="my-2">
+                <button
+                  class="bg-[#1A1A1A] text-[#FFFFFF] w-[330px] lg:w-[260px] py-2 rounded-xl"
+                >
+                  <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 04 -->
+        <div class="shadow-md rounded-xl">
+          <div class="relative">
+            <img class="rounded-t-xl" src="images/trend-04.png" alt="" />
+            <div
+              class="bg-[white] absolute top-[15px] right-[15px] p-3 py-[10px] rounded-full"
+            >
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="p-4">
+            <div class="my-3">
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <i class="fa-regular fa-star text-[#F59E0B]"></i>
+              <h4 class="font-[700] text-[16px]">Cashmere Scarf</h4>
+              <span class="text-[#E85D3A] font-bold text-[16px] mr-[10px]"
+                >$95</span
+              >
+              <div class="my-2">
+                <button
+                  class="bg-[#1A1A1A] text-[#FFFFFF] w-[330px] lg:w-[260px] py-2 rounded-xl"
+                >
+                  <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="m-w-[1440px] mx-auto px-[10px] lg:px-[80px] py-[30px] lg:py-[64px] grid grid-cols-2 lg:grid-cols-4">
+      <!-- card 01 -->
+      <div class="flex gap-4 align-center">
+        <div class="w-[48px] h-[48px] bg-[#E85D3A14] rounded-full text-center">
+          <i class="fa-regular fa-truck text-[#E85D3A] pt-4"></i>
+        </div>
+        <div>
+          <h4 class="text-[16px] font-[700] text-[#1A1A1A]">Free Shipping</h4>
+          <p class="text-[13px] font-[400] text-[#666360]">
+            On all orders over $99 standard
+          </p>
+        </div>
+      </div>
+      <!-- card 02 -->
+      <div class="flex gap-4 align-center">
+        <div class="w-[48px] h-[48px] bg-[#E85D3A14] rounded-full text-center">
+          <i class="fa-solid fa-shield text-[#E85D3A] pt-4"></i>
+        </div>
+        <div>
+          <h4 class="text-[16px] font-[700] text-[#1A1A1A]">Secure Payment</h4>
+          <p class="text-[13px] font-[400] text-[#666360]">
+            100% encrypted checkout transaction
+          </p>
+        </div>
+      </div>
+      <!-- card 03 -->
+      <div class="flex gap-4 align-center">
+        <div class="w-[48px] h-[48px] bg-[#E85D3A14] rounded-full text-center">
+          <i class="fa-solid fa-rotate-left text-[#E85D3A] pt-4"></i>
+        </div>
+        <div>
+          <h4 class="text-[16px] font-[700] text-[#1A1A1A]">Easy Returns</h4>
+          <p class="text-[13px] font-[400] text-[#666360]">
+            30-day hassle-free exchange policy
+          </p>
+        </div>
+      </div>
+      <!-- card 04 -->
+      <div class="flex gap-4 align-center">
+        <div class="w-[48px] h-[48px] bg-[#E85D3A14] rounded-full text-center">
+          <i class="fa-solid fa-phone-volume text-[#E85D3A] pt-4"></i>
+        </div>
+        <div>
+          <h4 class="text-[16px] font-[700] text-[#1A1A1A]">24/7 Support</h4>
+          <p class="text-[13px] font-[400] text-[#666360]">
+            Dedicated friendly specialist assistance
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-[#F5EDE8] py-[30px] px-[10px] lg:py-[64px] text-center">
+      <div>
+        <p class="text-[12px] font-[700] text-[#E85D3A] uppercase">
+          Newsletter
+        </p>
+        <h2 class="text-[36px] font-[700] text-[#1A1A1A]">Stay in the Loop</h2>
+        <p class="text-[15px] font-[400] text-[#666360] pt-4">
+          Subscribe to receive exclusive access to early drops, mid-season
+          sales, and <br />
+          thoughtful editorial content. No spam, unsubscribe anytime.
+        </p>
+      </div>
+      <div class="flex w-[300px] lg:w-[480px] mx-auto my-10">
+        <div
+          class="text-[9px] lg:text-[14px] font-[400] bg-[#FFFFFF] p-[16px] w-[200px] lg:w-[360px] mx-auto rounded-l-md text-left"
+        >
+          <i class="fa-regular fa-envelope text-[#96908D] pr-5 text-[20px]"></i>
+          <input type="email" placeholder="Enter your email address" />
+        </div>
+        <div>
+          <button class="bg-black text-[#FFFFFF] p-[16px] px-4 lg:px-6 rounded-r-md">
+            Subscribe
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-black py-[40px]">
+      <div class="m-w-[1440px] mx-auto px-[10px] lg:px-[80px] lg:py-[50px] grid gap-[50px] grid-cols-2 lg:grid-cols-4  lg:justify-between">
+        <!-- card 01 -->
+        <div>
+          <div class="flex gap-2">
+            <div
+              class="bg-[#E85D3A] px-[3px] py-[3px] w-[28px] h-[28px] text-center rounded-lg"
+            >
+              <i class="fa-solid fa-crow text-white"></i>
+            </div>
+            <p class="text-[20px] font-[800] text-[#FAFAFA]">ShopNest</p>
+          </div>
+          <p class="text-[#96908D] font-[400] text-[16px] py-5">
+            Crafting premium and sustainable <br />
+            clothing items engineered to fit into <br />
+            your active everyday life. Elevated <br />
+            minimal aesthetics.
+          </p>
+          <div class="text-[#FAFAFA] flex gap-10 py-4">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-regular fa-circle-xmark"></i>
+          </div>
+        </div>
+        <!-- card 02 -->
+        <div>
+          <h4 class="text-5 font-[700] text-[#FAFAFA]">Shop</h4>
+          <ul class="text-[#96908D] py-4">
+            <li class="text-[18px] font-[400] py-1">Men</li>
+            <li class="text-[18px] font-[400] py-1">Women</li>
+            <li class="text-[18px] font-[400] py-1">Accessories</li>
+            <li class="text-[18px] font-[400] py-1">New Arrivals</li>
+            <li class="text-[18px] font-[400] py-1">Sale</li>
+          </ul>
+        </div>
+        <!-- card 03 -->
+        <div>
+          <h4 class="text-5 font-[700] text-[#FAFAFA]">Help</h4>
+          <ul class="text-[#96908D] py-4">
+            <li class="text-[18px] font-[400] py-1">FAQ</li>
+            <li class="text-[18px] font-[400] py-1">Shipping</li>
+            <li class="text-[18px] font-[400] py-1">Returns</li>
+            <li class="text-[18px] font-[400] py-1">Size Guide</li>
+            <li class="text-[18px] font-[400] py-1">Contact</li>
+          </ul>
+        </div>
+        <!-- card 04 -->
+        <div>
+          <h4 class="text-5 font-[700] text-[#FAFAFA]">Company</h4>
+          <ul class="text-[#96908D] py-4">
+            <li class="text-[18px] font-[400] py-1">About Us</li>
+            <li class="text-[18px] font-[400] py-1">Careers</li>
+            <li class="text-[18px] font-[400] py-1">Press</li>
+            <li class="text-[18px] font-[400] py-1">Sustainability</li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="text-[#96908D] flex justify-between m-w-[1440px] mx-auto px-[10px] lg:px-[80px] text-[10px]"
+      >
+        <div>
+          <p>© 2026 ShopNest. All rights reserved.</p>
+        </div>
+        <div class="flex lg:gap-5">
+          <i class="fa-regular fa-credit-card"></i>
+          <i class="fa-regular fa-credit-card"></i>
+          <i class="fa-solid fa-apple-whole"></i>
+          <i class="fa-regular fa-circle-xmark"></i>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
